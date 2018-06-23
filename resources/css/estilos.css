@@ -1,0 +1,208 @@
+*{width: 100%; height: 100%; padding: 0%; margin: 0%;}
+
+/* 
+
+Color navegador principal: #121212 
+Color texto base: #C79A3C
+Color texto mouse hover: #FFFFE1
+Color fondo hover: #262626
+
+*/
+
+/*------------------------------ Barra Navegador -------------------------------------------*/
+
+.iconsize{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.loupe-icon{ 
+	background-image: url("../image/icons/lupa.png");
+	background-size: cover;
+}
+
+.hamburgueza{ 
+	background-image: url("../image/icons/hamburgueza.png");
+	background-size: cover;
+}
+
+.logotype{ 
+	background-image: url("../image/icons/fondofinal.png");
+	background-size: cover;
+}
+
+.buscador-log{
+	display: inline-block;
+	height: 55px;
+	width: 550px;
+	float: right;  
+}
+	
+.buscador-log > .buscador{float:left;}
+
+.buscador-log > .log{float:right;}
+
+.opciones > button{
+	border-radius: 3px;
+	box-shadow: 2px 2px black;
+}
+
+
+.opciones{ 
+	/* background-color: red; */
+	display: inline-block;
+	height: 55px;
+	width: 400px;
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+
+.opciones > button{
+	display: inline-block;
+	width: 50px;
+	height: 35px;
+	float: left;
+}
+
+.opciones > ul > li{
+	display: inline-block;
+	border: 1px solid #262626;
+	background-color: #121212;
+	text-align: center;
+	padding-top: 10px !important;
+	
+}
+
+.opciones > ul > li:hover{
+	background-color: #262626;
+	transition: .3s;
+}
+
+.opciones > ul > li > a{
+	display: inline-block;
+	width:  200px;
+	height: 30px;
+	margin: 0 0 0 0;
+	padding: 0px;
+	text-decoration: none;
+	color: #C79A3C;
+}
+
+.opciones > ul > li > a:hover{
+	color: #FFFFE1;
+	background-color: #262626;
+	transition: .3s;
+}
+   					  
+.opciones > ul{
+	display: inline-block;
+	position: absolute;
+	z-index: 6;
+	text-align: center;
+	width:  200px;
+	height: 30px;
+	margin:49px 0 0 2px;
+	padding: 0px;
+	list-style: none;
+}
+
+.opciones > button{
+	display:inline-block; 
+	margin: 10px 0 0 2px;
+	padding: 0px;
+	width: 55px;
+	height:40px;
+	border-radius: 3px;
+	box-shadow: 2px 2px black;
+}
+
+.log{
+	display: inline-block;
+	float: right;
+	text-align: center;
+	width: 115px;
+	height: 45px;
+	padding: 5px;
+	margin: 0px;
+	/* background-color: pink; */
+}
+
+.log > a {
+	display: inline-block;
+	float: right;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	padding: 0px;
+	margin: 2px;
+	/* background-color: blue; */
+	color: #C79A3C;
+	text-decoration: none;
+}
+
+.log > a:hover{
+	color: #FFFFE1;
+	transition: .3s;
+}
+
+.buscador{ 
+	display: inline-block;
+	height: 35px;
+	width: 404px;
+	float: right;
+	margin: 12px 0px 0px 10px;
+}
+
+.buscador > button{ 
+	display:inline-block; 
+	width: 50px;
+	height: 35px;
+	margin:0px;
+	padding: 0px; 
+	border-radius: 3px;
+	box-shadow: 2px 2px black;
+}
+
+.buscador > input{ 
+	display: inline-block;
+	width: 295px; 
+	height: 35px;
+	margin:0px;
+	padding-left: 5px;
+	vertical-align: top;
+	border-radius: 3px;
+	box-shadow: 2px 2px black;
+}
+
+
+.nav-principal{
+	display: inline-block;
+	width: 100%;
+	height: 56px;
+	padding: 0px;
+	text-align: center;
+	position: fixed;
+	background-color: rgba(18, 18, 18, 0.91);
+
+}
+
+.nav-principal > i{
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	height: 53px;
+	margin: 0 0 0 118px;
+}
+
+
+
+
+/*-----------------------------------------Barra Navegador-----------------------------------------------------*/
+
+body{
+	background-image: linear-gradient(#010101 0%, #404040 50%, #999999 100%);
+	background-repeat: no-repeat;
+}
+   					  
+

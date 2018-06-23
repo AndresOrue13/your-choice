@@ -3,23 +3,55 @@
 <head>
 
 	<meta charset="utf-8"></main>
-
-		<title>Your Choice</title>
+		<link rel="stylesheet" type="text/css" href="./resources/css/estilos.css">
+		
+			<title>Your Choice</title>
 
 </head>
 <body>
-	
-	<nav>
+
+	<nav class="nav-principal">
 		<!-- buscador izquierda-->
-
+		
 		<!-- Imagen en el centro-->
+		
+		<div class="opciones">
+			<button onclick="ocultarmenu();"><i class="iconsize hamburgueza"></i></button>
+			
+				<ul id="app_menu" style="display: none">
+					
+					<li><a href="">Suscripciones</a></li>
+					<li><a href="">Lista Reproducción</a></li>
+					<li><a href="">Categorias</a></li>
+					<li><a href="">Historial</a></li>
+				</ul>
 
-		<ul>
-			<li>Perfil</li>
-			<li></li>
-		</ul>
+		</div>
 
-		<!-- login derecha-->
+
+
+		<i class="logotype"></i>
+
+		
+		<div class="buscador-log">
+			<div class="buscador">
+				
+				<input type="search" name="Buscar" placeholder="Buscar...">
+
+				<button type="submit" name="Busqueda"><i class="iconsize loupe-icon"></i></button>
+			
+			</div>
+					
+			<div class="log">
+
+				<!-- crear foto perfil clickeable que te mande al perfil-->
+
+				<a href="">Iniciar Sesión</a>
+
+				<a href="">Registrárse</a>
+
+			</div>
+		</div>
 
 	</nav>
 	<section></section>
@@ -27,6 +59,6 @@
 
 
 
-
+<script type="text/javascript" src="./resources/js/js.js"></script>
 </body>
 </html>
