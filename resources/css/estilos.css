@@ -11,11 +11,16 @@ Color fondo hover: #262626
 
 /*------------------------------ Barra Navegador -------------------------------------------*/
 
-.iconsize{
+.iconsize-small{
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-}
+	}
+.iconsize-mid{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}	
 
 .loupe-icon{ 
 	background-image: url("../image/icons/lupa.png");
@@ -23,9 +28,15 @@ Color fondo hover: #262626
 }
 
 .hamburgueza{ 
-	background-image: url("../image/icons/hamburgueza.png");
+	background-image: url("../image/icons/hamburguesastandar.png");
 	background-size: cover;
 }
+
+.hamburgueza:hover{ 
+	background-image: url("../image/icons/hamburguesahover.png");
+	background-size: cover;
+}
+
 
 .logotype{ 
 	background-image: url("../image/icons/fondofinal.png");
@@ -43,11 +54,6 @@ Color fondo hover: #262626
 
 .buscador-log > .log{float:right;}
 
-.opciones > button{
-	border-radius: 3px;
-	box-shadow: 2px 2px black;
-}
-
 
 .opciones{ 
 	/* background-color: red; */
@@ -56,13 +62,20 @@ Color fondo hover: #262626
 	width: 400px;
 	float: left;
 	margin: 0px 0px 0px 10px;
+	text-align: left;
 }
 
 .opciones > button{
 	display: inline-block;
-	width: 50px;
-	height: 35px;
-	float: left;
+	width: 55px;
+	height: 40px;
+	margin: 10px 0 0 2px;
+	padding: 0px;
+	border-radius: 3px;
+	background: none !important;
+	outline: none;
+	cursor:pointer;
+	border:0px;
 }
 
 .opciones > ul > li{
@@ -102,19 +115,9 @@ Color fondo hover: #262626
 	text-align: center;
 	width:  200px;
 	height: 30px;
-	margin:49px 0 0 2px;
+	margin:1px 0 0 2px;
 	padding: 0px;
 	list-style: none;
-}
-
-.opciones > button{
-	display:inline-block; 
-	margin: 10px 0 0 2px;
-	padding: 0px;
-	width: 55px;
-	height:40px;
-	border-radius: 3px;
-	box-shadow: 2px 2px black;
 }
 
 .log{
@@ -162,6 +165,8 @@ Color fondo hover: #262626
 	padding: 0px; 
 	border-radius: 3px;
 	box-shadow: 2px 2px black;
+	outline: none;
+	cursor:pointer
 }
 
 .buscador > input{ 
@@ -192,7 +197,7 @@ Color fondo hover: #262626
 	text-align: center;
 	width: 100px;
 	height: 53px;
-	margin: 0 0 0 118px;
+	margin: 0 0 0 115px;
 }
 
 
